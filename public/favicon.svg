@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <defs>
+    <radialGradient id="radarGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0b0f19" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="neonTeal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06d6a0"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect width="192" height="192" rx="44" fill="#0b0f19"/>
+  <circle cx="96" cy="96" r="72" fill="url(#radarGrad)" stroke="#1e293b" stroke-width="2"/>
+  <circle cx="96" cy="96" r="50" fill="none" stroke="#06d6a0" stroke-width="1.5" stroke-dasharray="4 4" stroke-opacity="0.5"/>
+  <circle cx="96" cy="96" r="28" fill="none" stroke="#1e293b" stroke-width="1.5"/>
+  
+  <!-- Crosshairs -->
+  <line x1="96" y1="20" x2="96" y2="172" stroke="#10b981" stroke-width="1" stroke-opacity="0.25"/>
+  <line x1="20" y1="96" x2="172" y2="96" stroke="#10b981" stroke-width="1" stroke-opacity="0.25"/>
+  
+  <!-- Stealth radar beam -->
+  <path d="M96 96 L148 44 A72 72 0 0 0 96 24 Z" fill="#06d6a0" fill-opacity="0.18"/>
+  
+  <!-- Center Stealth Pin / Blip -->
+  <circle cx="96" cy="96" r="10" fill="url(#neonTeal)"/>
+  <circle cx="96" cy="96" r="18" fill="none" stroke="#06d6a0" stroke-width="2" stroke-opacity="0.7"/>
+  <circle cx="132" cy="72" r="5" fill="#ef4444"/>
+  <circle cx="68" cy="120" r="4.5" fill="#3b82f6"/>
+</svg>

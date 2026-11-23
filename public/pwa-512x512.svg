@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="radarGrad512" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0b0f19" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="neonTeal512" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06d6a0"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#0b0f19"/>
+  <circle cx="256" cy="256" r="192" fill="url(#radarGrad512)" stroke="#1e293b" stroke-width="4"/>
+  <circle cx="256" cy="256" r="136" fill="none" stroke="#06d6a0" stroke-width="3" stroke-dasharray="8 8" stroke-opacity="0.5"/>
+  <circle cx="256" cy="256" r="76" fill="none" stroke="#1e293b" stroke-width="3"/>
+  <line x1="256" y1="56" x2="256" y2="456" stroke="#10b981" stroke-width="2" stroke-opacity="0.25"/>
+  <line x1="56" y1="256" x2="456" y2="256" stroke="#10b981" stroke-width="2" stroke-opacity="0.25"/>
+  <path d="M256 256 L396 116 A192 192 0 0 0 256 64 Z" fill="#06d6a0" fill-opacity="0.18"/>
+  <circle cx="256" cy="256" r="26" fill="url(#neonTeal512)"/>
+  <circle cx="256" cy="256" r="46" fill="none" stroke="#06d6a0" stroke-width="4" stroke-opacity="0.7"/>
+  <circle cx="350" cy="190" r="13" fill="#ef4444"/>
+  <circle cx="180" cy="320" r="11" fill="#3b82f6"/>
+</svg>
