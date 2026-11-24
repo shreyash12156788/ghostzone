@@ -1,7 +1,7 @@
 const { io } = require('socket.io-client');
 const crypto = require('crypto');
 
-const SERVER_URL = 'http://localhost:3001';
+const SERVER_URL = process.env.SERVER_URL || 'http://localhost:3000';
 
 async function verifyEndToEnd() {
   console.log('=== Starting End-to-End Client & Server Type Verification ===');

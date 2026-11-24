@@ -1,6 +1,6 @@
 const { io } = require('socket.io-client');
 
-const SERVER_URL = 'http://localhost:3001';
+const SERVER_URL = process.env.SERVER_URL || 'http://localhost:3000';
 
 async function runTest() {
   console.log('--- Starting Socket.io Backend Test ---');

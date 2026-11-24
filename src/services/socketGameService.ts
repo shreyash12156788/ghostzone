@@ -38,7 +38,7 @@ export class SocketGameService implements IGameService {
       envUrl ||
       (typeof window !== 'undefined' && window.location.origin
         ? window.location.origin
-        : 'http://localhost:3001');
+        : 'http://localhost:3000');
 
     this.socket = io(serverUrl, {
       transports: ['websocket', 'polling'],
