@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "npm install --prefix server && tsc && vite build",
     "build:all": "npm install --prefix server && npm run build",
     "start": "node server/index.js",
     "preview": "vite preview",
